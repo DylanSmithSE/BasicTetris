@@ -11,7 +11,7 @@ body {
 	align-items: center;
 }
 .main-container {
-	margin: 10% auto 0;
+	margin: 5% auto 0;
 	background-color: #b7c5e8;
 	border: #b7c5e8 solid 1px;
 	border-radius: 10% 10%;
@@ -157,12 +157,14 @@ body {
 	background-color: #f7c2c7;
 }
 .info {
-	margin: 2rem 0;
 	max-width: 600px;
+}
+section {
+	margin: 4rem 0;
 }
 section > h1 {
 	text-align: center;
-	margin: 1.5rem 0;
+	margin: 1rem 0;
 }
 section > p {
 	margin: 0.5rem 0;
@@ -178,6 +180,7 @@ section > p {
 }
 .controls-container {
 	display: flex;
+	background-color: #b7c5e8;
 	justify-content: space-around;
 }
 .controls .key {
